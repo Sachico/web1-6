@@ -8,9 +8,27 @@ body{background-color:#dcdcdc;}
     padding: 40px 80px;
     border: green 1px soild;
     background-color: white;}
-#photo{
+
+.photo{
     float: left;
     margin-right: 30px;}
+
+.otsumami_picture:after{
+    content:"";
+    clear: both;
+    display: block;
+}
+    
+.explanation{
+    float:left;}
+
+dt{
+   clear: left;
+    float: left;
+    font-weight: bold;
+}
+
+    
     
    
 
